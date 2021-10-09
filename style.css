@@ -1,0 +1,66 @@
+body {
+	font-family: 'Merriweather', serif;
+	font-size:  16px;
+	font-weight:  300;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  Background: ghostwhite;
+  width:  700px;
+  margin:  40px auto;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight:  500;
+	font-size: 32px;
+	color: steelblue;
+	line-height: 20px;
+	letter-spacing: 2px;
+
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size:  24px;
+	color:  steelblue;
+}
+a {
+	color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color: steelblue;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow:  0px 5px 10px rgb(0,0,0,0.1);
+}
+a:hover {
+  color: indianred;
+  text-decoration: underline;
+}
+
+/* Custom design with class */
+.box-cadetblue{
+	background-color:  aliceblue;
+	padding: 40px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 600px;
+	margin: 20px auto;
+	border: 1px solid aliceblue;
+
+}
+#textarea-medium{
+	padding: 100px;
+}
+.input-long{
+	width: 320px;
+}
+.img-circle {
+	border-radius: 50%;
+}
